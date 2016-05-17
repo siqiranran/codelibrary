@@ -1,0 +1,124 @@
+body {
+    overflow-x: hidden;
+}
+
+p {
+    font-size: 20px;
+}
+
+.mynavbarcolor {
+    background-color: #18bb9c;
+    border: none;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: 0;
+}
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand:hover {
+    color: #2d3e50;
+}
+.navbar-brand, .navbar-right {
+    font-weight: bold;
+}
+.navbar-brand:hover {
+    color:#2d3e50;
+}
+
+.navbar-default .navbar-nav>li>a  {
+    color: white;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+.navbar-header button{
+    border:none;
+    
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2d3e50;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+.btn-block {
+    background-color: #18bb9c;
+}
+.btn-block:hover {
+    background-color: #2d3e50;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color:#2d3e50; 
+    color: white;
+}
+header {
+    background-color: #2d3e50;
+    width: 100%;
+}
+header img {
+    width: 25em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-right: auto;
+    margin-left:auto;
+}
+.intro-text{
+    text-align: center;
+    margin-bottom: 3em;
+    color: white;
+    font-size: 1.8em;
+}
+.intro-text button {
+    background-color: #18bb9c;
+    margin-bottom: 1em;
+    width: 10em;
+}
+.intro-text button:hover {
+    background-color: #2d3e50;
+    border:1px solid #18bb9c;
+}
+
+.search {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.text-center h2, .portfolio-item h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #2d3e50;
+    margin-top: 1em;
+}
+
+.portfolio-item h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+.portfolio-item h3:hover {
+    color: #18bb9c;
+    text-decoration: none;
+}
+.footer-above {
+    background-color: #2d3e50;
+    color: white;
+}
+.footer-below {
+    background-color: #2a2a2a;
+    height: 4em;
+    color: #5e5e5f;
+}
+.footer-above h3 {
+    font-size: 1.5em;
+}
+.footer-above p {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+.footer-below p {
+    margin-top: 1.2em;
+    font-size: 1em;
+}
+
+.welcome p{
+    color: #2d3e50;
+    text-transform: uppercase;
+}
